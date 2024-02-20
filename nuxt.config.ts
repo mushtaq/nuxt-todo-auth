@@ -6,5 +6,18 @@ export default defineNuxtConfig({
   ],
   ui: {
     icons: ['heroicons', 'simple-icons']
+  },
+  nitro: {
+    azure: {
+      config: {
+        platform: {
+          apiRuntime: 'node:18'
+        },
+        forwardingGateway: {
+          allowedForwardedHosts: [
+          ]
+        }
+      }
+    }
   }
 })
