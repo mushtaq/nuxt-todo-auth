@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         },
         forwardingGateway: {
           allowedForwardedHosts: [
+            'gray-pond-07fb7960f.4.azurestaticapps.net'
           ]
         }
       }
